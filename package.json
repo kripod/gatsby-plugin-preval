@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-plugin-preval",
+  "version": "1.0.0",
+  "description": "Gatsby plugin for pre-evaluating code at build-time",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "preval"
+  ],
+  "repository": "https://github.com/kripod/gatsby-plugin-preval",
+  "author": "Kristóf Poduszló <kripod@protonmail.com>",
+  "license": "MIT",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore \"**/*.js\"",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{js,json,md}\""
+  },
+  "peerDependencies": {
+    "babel-plugin-preval": ">=3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.0"
+  }
+}
